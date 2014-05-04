@@ -9,6 +9,6 @@ interface INode {
     public function getValue();
     public function setValue();
     public function isEmpty();
-    public function compare($x, $y);
+    public function compare($value);
 }
 
